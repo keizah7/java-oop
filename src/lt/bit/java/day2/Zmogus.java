@@ -5,6 +5,14 @@ class Zmogus {
   String vardas; // null
   String pavarde; // null
   Keksas[] suvalgytiKeksai = new Keksas[5];
+
+  Zmogus(String vardas, String pavarde) {
+    this.vardas = vardas;
+    this.pavarde = pavarde;
+  }
+
+  Zmogus() {
+  }
 }
 
 class Keksas {
