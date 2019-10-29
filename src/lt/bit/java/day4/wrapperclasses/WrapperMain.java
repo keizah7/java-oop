@@ -13,5 +13,16 @@ class WrapperMain {
     // intPrimitive = intObject; // gavom NullpointerException, nes buvo unboxinama kvieciant: intObject.intValue();
     System.out.println("primitive: " + intPrimitive);
     System.out.println("object: " + intObject);
+
+    int intVar = 1;
+    Integer intObj = 2;
+
+    intVar = intObj;
+
+    intObj = Integer.valueOf("1");
+    System.out.println(intVar + intObj);
+    intObj = null;
+
+    System.out.println(intVar + (intObj == null ? 0 : intObj));
   }
 }
