@@ -12,12 +12,17 @@ class Exrc14 {
     char[] result = new char[str.length()];
     char[] chars = str.toCharArray();
     char[] allowedChars = preservedChars.toCharArray();
+
     for (int i = 0; i < chars.length; i++) {
-      for (int j = 0; j < allowedChars.length; j++) {
-        if (chars[i] == allowedChars[j]) result[i] = chars[i];
+      for (char allowedChar : allowedChars) {
+        if (chars[i] == allowedChar) {
+          result[i] = chars[i];
+          break;
+        }
         result[i] = '+';
       }
     }
+
     return String.valueOf(result);
   }
 }
