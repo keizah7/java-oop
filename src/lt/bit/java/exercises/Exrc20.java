@@ -20,6 +20,8 @@ class Exrc20 {
     List<String> newStrings = new ArrayList<>();
     for (String str : strings) {
       newStrings.add(y + str + y);
+//      newStrings.add(format);
+//      newStrings.add(format 1 2);
     }
     return newStrings;
     // Java 8 way
