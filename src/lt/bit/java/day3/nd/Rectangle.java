@@ -1,4 +1,4 @@
-package lt.bit.java.day3.hw;
+package lt.bit.java.day3.nd;
 
 import lt.bit.java.day3.Shape;
 

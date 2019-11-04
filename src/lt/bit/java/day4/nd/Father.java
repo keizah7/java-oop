@@ -1,4 +1,4 @@
-package lt.bit.java.day4.hw;
+package lt.bit.java.day4.nd;
 
 public class Father extends FamilyMember implements Driver {
     protected Father(String name, int age) {

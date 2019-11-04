@@ -1,4 +1,4 @@
-package lt.bit.java.day3.hw;
+package lt.bit.java.day3.nd;
 
 abstract class Car {
     String name, gearBox, make, model;

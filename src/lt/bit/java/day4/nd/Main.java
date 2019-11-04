@@ -1,4 +1,4 @@
-package lt.bit.java.day4.hw;
+package lt.bit.java.day4.nd;
 
 public class Main {
 //    ND 10.28

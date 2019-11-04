@@ -1,4 +1,4 @@
-package lt.bit.java.day3.hw;
+package lt.bit.java.day3.nd;
 
 public class CarMain {
 //    ND 10.25

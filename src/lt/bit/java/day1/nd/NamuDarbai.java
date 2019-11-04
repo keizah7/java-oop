@@ -1,4 +1,4 @@
-package lt.bit.java.day1;
+package lt.bit.java.day1.nd;
 
 import java.util.Arrays;
 

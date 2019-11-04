@@ -1,20 +1,20 @@
 package lt.bit.java.day3;
 
-abstract class Shape {
+public abstract class Shape {
 
   private String color;
 
-  Shape(String color) {
+  public Shape(String color) {
     this.color = color;
   }
 
-  String getColor() {
+  public String getColor() {
     return color;
   }
 
-  abstract double getArea();
+  public abstract double getArea();
 
-  abstract double getPerimeter();
+  public abstract double getPerimeter();
 
   String getAreaAndPerimeter() {
     String info = String.format("Area: %.2f\n", getArea());

@@ -1,4 +1,4 @@
-package lt.bit.java.day5.hw;
+package lt.bit.java.day5.nd;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,4 +1,4 @@
-package lt.bit.java.day3.hw;
+package lt.bit.java.day3.nd;
 
 class DieselCar extends Car {
     DieselCar(String name, String gearBox, int maxSpeed){
