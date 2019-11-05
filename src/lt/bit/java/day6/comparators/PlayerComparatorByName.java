@@ -1,4 +1,4 @@
-package lt.bit.java.day6;
+package lt.bit.java.day6.comparators;
 
 import java.util.Comparator;
 

@@ -1,4 +1,4 @@
-package lt.bit.java.day6;
+package lt.bit.java.day6.comparators;
 
 class Player implements Comparable<Player> {
 
