@@ -1,6 +1,4 @@
-package lt.bit.java.day3.nd;
-
-import lt.bit.java.day3.Shape;
+package lt.bit.java.day6.nd;
 
 class Rectangle extends Shape {
 //    2. Sukurti klasę Rectangle, kuri praplėstų mūsų sukurtą Shape ir joje implementuoti visus metodus, kurių reikalauja mūsų abstrakti klasė.
@@ -21,6 +19,11 @@ class Rectangle extends Shape {
     @Override
     public double getPerimeter() {
         return 2 * (a + b);
+    }
+
+    @Override
+    public String toString() {
+        return getClassName() + getAreaAndPerimeter();
     }
 
     boolean isSquare() {
