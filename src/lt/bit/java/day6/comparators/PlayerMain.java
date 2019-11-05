@@ -19,6 +19,7 @@ class PlayerMain {
     System.out.println("default order, naudoja Comparable is Player");
     Collections.sort(players);
     System.out.println(players);
+    System.out.println();
 
     System.out.println("by name, naudoja PlayerComparatorByName");
     Collections.sort(players, new PlayerComparatorByName());
@@ -26,6 +27,8 @@ class PlayerMain {
     System.out.println("by name, naudoja PlayerComparatorByName::reversed()");
     Collections.sort(players, new PlayerComparatorByName().reversed());
     System.out.println(players);
+    System.out.println();
+
 
     System.out.println("by name, naudoja PlayerComparatorByNameLengthAndScore");
     Collections.sort(players, new PlayerComparatorByNameLengthAndScore());

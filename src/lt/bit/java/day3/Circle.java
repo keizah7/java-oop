@@ -10,17 +10,17 @@ class Circle extends Shape {
   }
 
   @Override
-  String getColor() {
+  public String getColor() {
     return "circle color - " + super.getColor();
   }
 
   @Override
-  double getArea() {
+  public double getArea() {
     return Math.PI * Math.pow(r, 2);
   }
 
   @Override
-  double getPerimeter() {
+  public double getPerimeter() {
     return 2 * Math.PI * r;
   }
 }
