@@ -1,7 +1,6 @@
 package lt.bit.java.day6.iterator;
 
 class Student {
-
   private final String name;
   private final int lessonsAttended;
 
@@ -12,7 +11,7 @@ class Student {
 
   @Override
   public String toString() {
-    return name + "{" + lessonsAttended + '}';
+    return name + "dalyavo " + lessonsAttended + "pamokų";
   }
 
   public String getName() {
