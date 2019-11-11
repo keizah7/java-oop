@@ -50,6 +50,8 @@ class PlayerMain {
         return 0;
       }
     };
+    Collections.sort(players, pc);
+
     Collections.sort(players, new Comparator<Player>() {
       @Override
       public int compare(Player o1, Player o2) {
