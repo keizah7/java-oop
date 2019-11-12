@@ -1,5 +1,4 @@
 package lt.bit.java.day8.nd;
-
 //    ND 11.07
 //    --------
 //    1. Sukurti klasę InvalidParamException, kuri paveldi Exception. Klasė turi turėti laukus String error ir Object[] params.
