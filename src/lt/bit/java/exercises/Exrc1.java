@@ -13,10 +13,12 @@ class Exrc1 {
   }
 
   static int[] doubling(int[] arr) {
-    int[] result = new int[arr.length];
-    for (int i = 0; i < arr.length; i++) {
-      result[i] = arr[i] * 2;
-    }
-    return result;
+    // new way:
+    return Arrays.stream(arr).map(i -> i * 2).toArray();
+//    int[] result = new int[arr.length];
+//    for (int i = 0; i < arr.length; i++) {
+//      result[i] = arr[i] * 2;
+//    }
+//    return result;
   }
 }

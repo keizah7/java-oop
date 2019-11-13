@@ -14,8 +14,8 @@ class LambdaMain {
         // tas pats kas viršuje
         FancyPrinter fp = () -> System.out.println("Viskas su lambda");
 //        fp.print();
-
-        IntToStringConverter c1 = (int i) -> "nieko";
+        final String gero = " gero";
+        IntToStringConverter c1 = (int i) -> "nieko" + gero;
         IntToStringConverter c2 = (i) -> "->" + i + "<-";
         IntToStringConverter c3 = i -> String.valueOf(i);
         IntToStringConverter c4 = String::valueOf;

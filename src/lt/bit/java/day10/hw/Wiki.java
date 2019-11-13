@@ -37,6 +37,7 @@ class Wiki {
 
   private static void oldWay() throws IOException {
     List<String> lines = Files.readAllLines(Paths.get(WIKI_FILE));
+    lines.stream().forEach(w -> System.out.print(w + ' '));
 
     Map<String, Integer> wordMap = new HashMap<>();
     for (String line : lines) {
