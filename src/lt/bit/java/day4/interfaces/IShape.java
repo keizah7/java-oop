@@ -4,7 +4,6 @@ public interface IShape {
 
   String HEAD = "--- Shapes ---"; // public static final - by default
 
-
   static void printHeadline() {
     System.out.println(HEAD);
   }

@@ -1,0 +1,3 @@
+1vienas,du,  trys , nulis,
+2vienas,du, trys  , nulis,  
+3vienas,du, trys , nulis
