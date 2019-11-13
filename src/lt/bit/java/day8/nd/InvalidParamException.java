@@ -99,7 +99,6 @@ public class InvalidParamException extends Exception {
     }
 }
 
-
 class Wrapper {
     private String word;
     private int count;
@@ -128,7 +127,6 @@ class Wrapper {
     private void setCount(int count) {
         this.count = count;
     }
-
 
     int plusCount(){
         int num = getCount();
