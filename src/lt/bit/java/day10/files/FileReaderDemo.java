@@ -17,7 +17,7 @@ class FileReaderDemo {
   public static void main(String[] args) throws IOException {
 //    readLineByLine();
 //    readLineByLineInOldWay();
-        readList();
+//        readList();
 //        readFromStream();
 //        readFromStream2();
   }
